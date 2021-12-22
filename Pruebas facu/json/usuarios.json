@@ -1,0 +1,15 @@
+ [{
+         "idUser": 1,
+         "user": "administrador",
+         "password": "admin1234",
+         "perfil": "admin",
+         "status": true
+     },
+     {
+         "idUser": 2,
+         "user": "usuario",
+         "password": "1234",
+         "perfil": "usuario",
+         "status": true
+     }
+ ]

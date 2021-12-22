@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="imagenes/logofondo.png" title="Logo">
+    <link rel="stylesheet" href="css/hud.css">
+    <link rel="stylesheet" href="css/admin.css">
+    <title>Consola</title>
+    <header id="header_nav"></header>
+</head>
+
+<body>
+    <div class="sidebar-box">
+        <div class="sidebar-menu">
+            <div class="logo-admin">
+                <a id="nombre"> </a>
+            </div>
+
+            <ul>
+                <img class="perfil" src="imagenes/admin.png">
+                <li>
+                    <img class="icono" src="imagenes/icono.png">
+                    <a href="#perfil"></i> Perfil </a>
+                </li>
+                <li>
+                    <img class="icono" src="imagenes/icono2.png">
+                    <a href="#productos"> Productos </a></li>
+                <li>
+                    <img class="icono" src="imagenes/icono5.png">
+                    <a href="#creador"> Creador  </a></li>
+                <li>
+                    <img class="icono" src="imagenes/icono3.png">
+                    <a href="#contacto"> Contacto </a></li>
+                <li>
+                    <img class="icono" src="imagenes/icono4.png">
+                    <a href="#ubicacion"> Ubicacion </a></li>
+            </ul>
+        </div>
+        <div class="centro">
+            <div class="arriba-titulo">
+                <p class="titulo"> CONSOLA DE ADMINISTRADOR </p>
+            </div>
+            <div id="perfil">
+                <ul>
+                    <li>
+                        <img class="perfil" src="imagenes/admin.png">
+                        <p> Bienvenido/a <span id="nombre"></span></p>
+                        </p>
+                    </li>
+
+                    <p> HOLA </p>
+                    <p> HOLA </p>
+                </ul>
+            </div>
+            <hr>
+
+            <div id="productos">
+                <table class="tabla">
+                    <thead>
+                        <tr>
+                            <th> ID </th>
+                            <th> Nombre </th>
+                            <th> Géneros </th>
+                            <th> Precio </th>
+                            <th> Descuento </th>
+                            <th> Precio con Descuento </th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabla">
+
+                    </tbody>
+                </table>
+
+
+            </div>
+
+            <hr>
+            <div id="creador">
+                <p class="creador">Crear nuevo juego</p>
+                <div class="formulario">
+                    <form action="" target="_blank">
+                        <ul>
+                            <li>
+                                <p> ID: <input type="text" name="ID-juego"></p>
+                                <p> Nombre: <input type="text" name="nombre-juego"></p>
+                                <p> Géneros <input type="text" name="géneros-juego"> <br><span>(disponibles: Acción, Aventura, Carreras, Deportes, Estrategia, MMO, Rol, Simuladores)</span></p>
+                                <p> Tags:<input type="text" name="tags-juego"> <br><span>(disponibles: free, accion, aventura, carrera, deporte, estrategia, mmo, rol, simulador)</span></p>
+                                <p> Destacado: <input type="text" name="destacado-juego"><br><span>(true/false)</span></p>
+                                <p> Oferta: <input type="text" name="oferta-juego"><br> <span> (true/false) </span></p>
+                                <p> Recomendado: <input type="text" name="recomendado-juego"><br> <span> (true/false) </span></p>
+                                <p> Precio base: <input type="text" name="precio-base-juego"></p>
+                                <p> Precio con descuento: <input type="text" name="precio-descuento-juego"><br> <span> Si no tiene descuento, poner false.</span> </p>
+                                <p> Descuento: <input type="text" name="descuento-juego"> <br> <span> Si no tiene descuento, poner false.</span></p>
+                            </li>
+                        </ul>
+                        <input type="submit" value="Enviar la información">
+                    </form>
+                </div>
+                <hr>
+            </div>
+            <div id="contacto">
+                <h1> CONTACTO</h1>
+
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="js/admin.js"></script>
+    <script src="js/hud.js"></script>
+</body>
+
+</html>

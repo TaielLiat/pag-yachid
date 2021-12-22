@@ -1,0 +1,709 @@
+[{
+    "id": 14,
+    "tipo": "Producto",
+    "nombre": "Valheim",
+    "géneros": ["Acción", "Rol", "Aventura", "MMO"],
+    "generos": "accion rol aventura mmo",
+    "productoDestacado": true,
+    "productoOferta": false,
+    "productoRecomendado": false,
+    "precioBase": ["ARS$", 150.76],
+    "precioDescuento": ["ARS$", 98.0],
+    "descuento": [45, "%"],
+
+    "imgSliderPath": "../imagenes/Slider/valheim.jpg",
+    "descripciónSlider": "Un guerrero muerto en batalla, las Valquirias llevaron su alma a Valheim, el décimo mundo nórdico. Rodeado de criaturas del caos y antiguos enemigos de los dioses, eres el guardián más joven del purgatorio primordial, encargado de matar a los viejos rivales de Odín y poner orden en Valheim...",
+
+    "desarrollador": ["Iron Gate AB"],
+    "editor": ["Coffee Stain Publishing"],
+    "franquicia": "Coffee Stain Publishing",
+    "fechaDeLanzamiento": "2 FEBRERO 2021",
+    "descripción": "Un guerrero muerto en batalla, las Valquirias llevaron su alma a Valheim, el décimo mundo nórdico. Rodeado de criaturas del caos y antiguos enemigos de los dioses, eres el guardián más joven del purgatorio primordial, encargado de matar a los viejos rivales de Odín y poner orden en Valheim. Tus pruebas comienzan en el pacífico centro desarmado de Valheim, pero los dioses recompensan a los valientes y la gloria te aguarda. Aventúrate a través de bosques imponentes y montañas cubiertas de nieve, explora y recolecta materiales valiosos para crear armas más letales, armaduras más resistentes, fortalezas vikingas y puestos de avanzadilla. Construye un poderoso barco y navega por los grandes océanos en busca de tierras exóticas... pero ten cuidado de navegar demasiado lejos...",
+
+    "reseñas": ["“Gráficamente vistoso sin ser exogente y con un a fluida jugabilidad que promete horas y horas de aventura y un futuro prometedor.” 8/10 –", "“Una experiencia divertidísima en solitario, que encuentra su mejor versión en la faceta cooperativa.” 8/10 –", "“El juego sigue en desarrollo, así que con el tiempo irá mejorando en algunas cosas, pero actualmente ya se siente como un juego completo” 7.5/10 –"],
+
+    "autores": ["Portal Geek", "Solo Jugadores", "Back to the Games"],
+
+    "requisitosSistemaMínimos": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows 7 o posteriores",
+        "Procesador": "2.6 GHz Quad Core o similares",
+        "Memoria": "8 GB de RAM",
+        "Almacenamiento": "1 GB de espacio disponible",
+        "Gráficos": " GeForce GTX 950 o Radeon HD 7970",
+        "Tarjeta_Sonido": "DirectX 11 Compatible"
+    },
+    "requisitosSistemaRecomendados": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows 7 o posteriores",
+        "Procesador": " i5 3GHz o Ryzen 5 3GHzs",
+        "Memoria": "16 GB de RAM",
+        "Almacenamiento": "1 GB de espacio disponible",
+        "Gráficos": "GeForce GTX 1060 or Radeon RX 580",
+        "Tarjeta_Sonido": "DirectX 11 Compatible"
+    },
+
+    "videoPath": "imagenes/Videos/Valheim.mp4",
+    "imgPathV": "imagenes/Vertical/Valheim.jpg",
+    "imgPathH": "imagenes/Slider/valheim.jpg",
+    "gamePath": "Juegos/valheim.html"
+}, {
+    "id": 13,
+    "tipo": "Producto",
+    "nombre": "No Man's Sky",
+    "géneros": ["Acción", "Aventura", "MMO"],
+    "generos": "accion aventura mmo",
+    "productoDestacado": false,
+    "productoOferta": false,
+    "productoRecomendado": false,
+    "precioBase": ["ARS$", 2299.99],
+    "precioDescuento": false,
+    "descuento": false,
+
+    "imgSliderPath": false,
+    "descripciónSlider": false,
+
+    "desarrollador": ["Hello Games"],
+    "editor": ["Hello Games"],
+    "franquicia": false,
+    "fechaDeLanzamiento": "12 AGOSTO 2016",
+    "descripción": "Inspirado por la aventura y la imaginación que amamos de la ciencia ficción clásica, No Man's Sky te presenta una galaxia para explorar, llena de planetas y formas de vida únicos, y peligro y acción constantes. En No Man's Sky, cada estrella es la luz de un sol distante, cada una orbitada por planetas llenos de vida, y puedes ir a cualquiera de ellos que elijas. Vuela sin problemas desde el espacio profundo hasta las superficies planetarias, sin pantallas de carga y sin límites. En este universo infinito generado por procedimientos, descubrirás lugares y criaturas que ningún otro jugador ha visto antes, y tal vez nunca lo volverán a ver.",
+    "reseñas": ["“Conmovedor, técnicamente competente y, a veces, casi con lágrimas en los ojos.” 5/5 –", "“No Man’s Sky es un enorme juego al que desafortunadamente le quedó grande el universo.” 7/10 –", "“Exploración relajante y un paisaje encantador junto con sistemas repetitivos, menús frustrantes y falta de descubrimiento real” 64/100 –"],
+
+    "autores": ["The Guardian", "IGN", "Level Up"],
+
+    "requisitosSistemaMínimos": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": " Windows 7/8.1/10 (version 64-bit)",
+        "Procesador": "Intel Core i3",
+        "Memoria": "8 GB de RAM",
+        "Almacenamiento": "10 GB de espacio disponible",
+        "Gráficos": "Nvidia GTX 480, AMD Radeon 7870",
+        "Tarjeta_Sonido": "DirectX 11 Compatible"
+    },
+    "videoPath": "imagenes/Videos/No Man's Sky.mp4",
+    "imgPathV": "imagenes/Vertical/nomanssky.jpg",
+    "imgPathH": "imagenes/Horizontal/NMSKY.jpg",
+    "gamePath": "Juegos/nomanssky.html"
+}, {
+    "id": 12,
+    "tipo": "Producto",
+    "nombre": "Green Hell",
+    "géneros": ["Acción", "MMO", "Rol", "Aventura"],
+    "generos": "accion rol aventura mmo",
+    "productoDestacado": true,
+    "productoOferta": true,
+    "productoRecomendado": false,
+    "precioBase": ["ARS$", 150.76],
+    "precioDescuento": ["ARS$", 98.0],
+    "descuento": [65, "%"],
+
+    "imgSliderPath": "../imagenes/Slider/green hell.jpg",
+    "descripciónSlider": "GREEN HELL es un simulador de supervivencia de mundo abierto ambientado en el entorno único e inexplorado de la selva amazónica. Te quedas solo en la jungla sin comida ni equipo, tratando de sobrevivir y encontrar la salida. Aferrado a la vida, el jugador se embarca en un viaje de durabilidad a medida que los efectos de la soledad se desgastan no solo en el cuerpo sino también en la mente. ¿Cuánto tiempo podrás sobrevivir a los peligros de lo desconocido?",
+
+    "desarrollador": ["Creepy Jar"],
+    "editor": "Creepy Jar",
+    "franquicia": [""],
+    "fechaDeLanzamiento": "5 SEPTIEMBRE 2019",
+    "descripción": "Como hombre o mujer varado desnudo, helado y hambriento en las costas de una isla misteriosa llamada ARK, debes cazar, recolectar recursos, fabricar artículos, cultivar, investigar tecnologías y construir refugios para resistir los elementos. Usa tu astucia y tus recursos para matar o domesticar y criar a los dinosaurios leviatán y otras criaturas primitivas que deambulan por la tierra, y únete o aprovecha a cientos de otros jugadores para sobrevivir, dominar ... ¡y escapar!",
+    "reseñas": ["“Es divertido, desafiante y, si juegas en equipo, una aventura fantástica.” 7.5/10 –", "“ARK: Survival Evolved tiene grandes momentos de batalla con bestias prehistóricas, pero también muchos errores de IA y grind.” 7.7/10 –", "“La dificultad y la atmósfera implacables son las principales características del simulador de dino-supervivencia Ark: Survival Evolved.” 6/10 –"],
+
+    "autores": ["3D Juegos", "IGN", "GameSpot"],
+
+    "requisitosSistemaMínimos": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows 7 SPI, Windows 8.1 o Windows 10",
+        "Procesador": "Intel Core i5 o equivalente",
+        "Memoria": "4 GB de RAM",
+        "Almacenamiento": "60 GB de espacio disponible",
+        "Gráficos": "NVIDIA® GeForce® GTX 550 o ATI™ Radeon™ HD 6XXX o posteriores",
+        "Tarjeta_Sonido": "DirectX 11 Compatible"
+    },
+    "requisitosSistemaRecomendados": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows 7 SPI, Windows 8.1 o Windows 10",
+        "Procesador": "Intel Core i7 o equivalente",
+        "Memoria": "8 GB de RAM",
+        "Almacenamiento": "60 GB de espacio disponible",
+        "Gráficos": "NVIDIA GeForce GTX 770 o AMD R9 280",
+        "Tarjeta_Sonido": "DirectX 11 Compatible"
+    },
+
+    "videoPath": "imagenes/Videos/Green Hell.mp4",
+    "imgPathV": "imagenes/Vertical/greenhell.jpg",
+    "imgPathH": "imagenes/Horizontal/GREENHELL.png",
+    "gamePath": "Juegos/greenhell.html"
+}, {
+    "id": 11,
+    "tipo": "Producto",
+    "nombre": "God of War",
+    "géneros": ["Acción", "Rol", "Aventura"],
+    "generos": "accion rol aventura",
+    "productoDestacado": true,
+    "productoOferta": true,
+    "productoRecomendado": true,
+    "precioBase": ["ARS$", 3598.23],
+    "precioDescuento": ["ARS$", 2770.64],
+    "descuento": [23, "%"],
+
+    "imgSliderPath": "../imagenes/Slider/gow horizontal.jpg",
+    "descripciónSlider": "Habiendo consumado su venganza contra los dioses el Olimpo años atrás, Kratos ahora vive como un hombre en el reino de los dioses y los monstruos nórdicos. En este hostil e inhóspito mundo, debe pelear por sobrevivir... y enseñarle a su hijo a hacer lo mismo.",
+
+    "desarrollador": ["Santa Monica Studio"],
+    "editor": "PlayStation PC LLC",
+    "franquicia": [""],
+    "fechaDeLanzamiento": "20 ABRIL 2018",
+    "descripción": "Habiendo consumado su venganza contra los dioses el Olimpo años atrás, Kratos ahora vive como un hombre en el reino de los dioses y los monstruos nórdicos. En este hostil e inhóspito mundo, debe pelear por sobrevivir... y enseñarle a su hijo a hacer lo mismo.",
+    "reseñas": ["“God of War es un nuevo comienzo para Kratos, un juego diferente, pero sigue siendo una de las mejores entradas de la serie y uno de los mejores juegos de esta generación.” 93/100 – ", "“El nuevo comienzo de Kratos está lleno de corazón, cargado de acción y es fácilmente uno de los mejores juegos de esta generación.” 100/100 –", "“La reinvención de Kratos sirve como un gancho narrativo, pero también es paralela a la evolución de la serie en su conjunto; donde God of War una vez se basó en la grandilocuencia y la sed de sangre, ahora deja espacio para la estrategia y los matices. Todavía tiene una acción excelente y muchos momentos asombrosos, pero los respalda con un nuevo nivel de profundidad y madurez. God of War aprende de su pasado mientras abre un camino emocionante para el futuro, y emerge como uno de los mejores juegos de esta generación. ” 98/100 –"],
+
+    "autores": ["IGN", "Gaming Age", "Game Informer"],
+
+    "requisitosSistemaMínimos": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows 10 64-bit",
+        "Procesador": "Coming soon",
+        "Almacenamiento": "80 GB de espacio disponible",
+        "Gráficos": "Coming soon",
+        "Tarjeta_Sonido": "DirectX 11 Compatible"
+    },
+    "requisitosSistemaRecomendados": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows 10 64-bit",
+        "Procesador": "Coming soon",
+        "Almacenamiento": "80 GB de espacio disponible",
+        "Gráficos": "Coming soon",
+        "Tarjeta_Sonido": "DirectX 11 Compatible"
+    },
+
+    "videoPath": "imagenes/Videos/God of War 4.mp4",
+    "imgPathV": "imagenes/Vertical/GOW PAG.jpg",
+    "imgPathH": "imagenes/Horizontal/GOW.jpg",
+    "gamePath": "Juegos/godofwar4.html"
+
+}, {
+    "id": 10,
+    "tipo": "Producto",
+    "nombre": "The Elder Scrolls V: Skyrim",
+    "géneros": ["Acción", "Rol", "Aventura"],
+    "generos": "accion rol aventura ",
+    "productoDestacado": true,
+    "productoOferta": true,
+    "productoRecomendado": false,
+    "precioBase": ["ARS$", 315.0],
+    "precioDescuento": ["ARS$", 220.5],
+    "descuento": [30, "%"],
+
+    "imgSliderPath": "../imagenes/Slider/elderscrolls.jpg",
+    "descripciónSlider": "El siguiente capítulo de la muy esperada saga Elder Scrolls llega de los creadores de los Juegos del año 2006 y 2008, Bethesda Game Studios. Skyrim reinventa y revoluciona la épica de fantasía de mundo abierto, dando vida a un mundo virtual completo abierto para que lo explores de la forma que elijas.",
+
+    "desarrollador": ["Bethesda Game Studios"],
+    "editor": "Bethesda Softworks",
+    "franquicia": ["The Elder Scrolls", "Skyrim"],
+    "fechaDeLanzamiento": "10 NOVIEMBRE 2011",
+    "descripción": "El siguiente capítulo de la muy esperada saga Elder Scrolls llega de los creadores de los Juegos del año 2006 y 2008, Bethesda Game Studios. Skyrim reinventa y revoluciona la épica de fantasía de mundo abierto, dando vida a un mundo virtual completo abierto para que lo explores de la forma que elijas.",
+    "reseñas": "“A Masterpiece.” 10/10 –",
+
+    "autores": "Eurogamer",
+
+    "requisitosSistemaMínimos": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows 7/8.1/10 (Version 64-bit)",
+        "Procesador": "Intel i5-750/AMD Phenom II X4-945",
+        "Memoria": "8 GB de RAM",
+        "Almacenamiento": "12 GB de espacio disponible",
+        "Gráficos": "NVIDIA® GeForce® GTX 550 o ATI™ Radeon™ HD 6XXX o posteriores",
+        "Tarjeta_Sonido": "DirectX 11 Compatible"
+    },
+
+    "requisitosSistemaRecomendados": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows 7/8.1/10 (Version 64-bit)",
+        "Procesador": " Intel i5-2400/AMD FX-8320",
+        "Memoria": "8 GB de RAM",
+        "Almacenamiento": "12 GB de espacio disponible",
+        "Gráficos": "NVIDIA GeForce GTX 770 o AMD R9 280",
+        "Tarjeta_Sonido": "DirectX 11 Compatible"
+
+    },
+    "videoPath": "/imagenes/Videos/The Elder Scrolls V_ Skyrim.mp4",
+    "imgPathV": "imagenes/Vertical/elder.png",
+    "imgPathH": "imagenes/Slider/elderscrolls.jpg",
+    "gamePath": "Juegos/elderscrollsskyrim.html"
+}, {
+    "id": 9,
+    "tipo": "Producto",
+    "nombre": "Dying Light 2 Stay Human",
+    "géneros": ["Acción", "Rol"],
+    "generos": "accion rol",
+    "productoDestacado": true,
+    "productoOferta": true,
+    "productoRecomendado": false,
+    "precioBase": ["ARS$", 419.99],
+    "precioDescuento": ["ARS$", 315.0],
+    "descuento": [30, "%"],
+
+    "imgSliderPath": "../imagenes/Slider/dyingLight2.jpg",
+    "descripciónSlider": "Luchamos contra el virus en Harran hace 20 años. Perdimos la batalla. Y estamos cerca de perder otra vez. La Ciudad, uno de los últimos asentamientos grandes de la humanidad, se viene abajo por los conflictos internos. La civilización regresó a la Edad Oscura. Pero aún tenemos esperanza.",
+
+    "desarrollador": ["Techland"],
+    "editor": "Techland",
+    "franquicia": "Dying Light",
+    "fechaDeLanzamiento": "4 FEBRERO 2022",
+    "descripción": "Luchamos contra el virus en Harran hace 20 años. Perdimos la batalla. Y estamos cerca de perder otra vez. La Ciudad, uno de los últimos asentamientos grandes de la humanidad, se viene abajo por los conflictos internos. La civilización regresó a la Edad Oscura. Pero aún tenemos esperanza. Eres un vagabundo cuyo poder le permitirá decidir el destino de la Ciudad. Pero unas habilidades tan excepcionales nunca son gratuitas. Te persiguen memorias que no alcanzas a entender. Decides salir en busca de la verdad... y acabas en medio de una guerra. Tendrás que aprender rápido, porque necesitarás fuerza e inteligencia tanto para derrotar a tus enemigos como para conseguir aliados. Desvela los oscuros secretos que ocultan los poderosos. Elige un bando. Decide tu destino. Y, pase lo que pase no pierdas tu humanidad",
+    "reseñas": [
+        "“Dying Light evoluciona de forma gradual y gratificante hacia una celebración rápida e hiperviolenta de la libertad vertical y la destrucción de los zombis”. 8,5 / 10 -",
+        "“Una emocionante aventura de zombies que me hace recordar lo que amaba de Dead Island y olvidar lo que odiaba”. Sí –",
+        "“El pedigrí de Techland ayuda a Dying Light a convertirse en uno de los mejores juegos de zombies de los últimos años”. 8,5 / 10 –"
+    ],
+
+    "autores": ["IGN", "Kotaku", "Game Informer"],
+
+    "requisitosSistemaMínimos": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows® 7 64-bit / Windows® 8 64-bit / Windows® 8.1 64-bit",
+        "Procesador": "Intel® Core™ i5-2500 @3.3 GHz / AMD FX-8320 @3.5 GHz",
+        "Memoria": "4 GB RAM DDR3",
+        "Almacenamiento": "40 GB de espacio disponible",
+        "Gráficos": "NVIDIA® GeForce® GTX 560 / AMD Radeon™ HD 6870 (1GB VRAM)",
+        "Tarjeta_Sonido": "DirectX 11 Compatible"
+    },
+
+    "requisitosSistemaRecomendados": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows® 7 64-bit / Windows® 8 64-bit / Windows® 8.1 64-bit",
+        "Procesador": "Intel® Core™ i5-4670K @3.4 GHz / AMD FX-8350 @4.0 GHz",
+        "Memoria": "8 GB de RAM DDR3",
+        "Almacenamiento": "40 GB de espacio disponible",
+        "Gráficos": "NVIDIA GeForce GTX 560 / ATI Radeon HD 5850",
+        "Tarjeta_Sonido": "DirectX 11 Compatible"
+    },
+
+    "videoPath": "imagenes/Videos/Dying Light 2.mp4",
+    "imgPathV": "imagenes/Vertical/dyinglight2.png",
+    "imgPathH": "imagenes/Slider/dyinglight2.jpg",
+    "gamePath": "Juegos/dyinglight2.html"
+}, {
+    "id": 8,
+    "tipo": "Producto",
+    "nombre": "Dota 2",
+    "géneros": ["Acción", "Free to Play", "Estrategia", "MMO"],
+    "generos": "accion free estrategia mmo",
+    "productoDestacado": false,
+    "productoOferta": false,
+    "productoRecomendado": false,
+    "precioBase": "Free to Play",
+    "precioDescuento": false,
+    "descuento": false,
+
+    "imgSliderPath": false,
+    "descripciónSlider": false,
+
+    "desarrollador": ["Valve"],
+    "editor": "Valve",
+    "franquicia": ["Dota"],
+    "fechaDeLanzamiento": "9 JULIO 2013",
+    "descripción": "Cada día, millones de jugadores de todo el mundo entran en batalla como uno de los más de cien héroes de Dota en un enfrentamiento por equipos de 5 contra 5. Dota es el juego de estrategia en tiempo real de acción multijugador más profundo jamás creado y siempre hay una nueva estrategia o táctica que descubrir. Jugar a Dota es gratis y siempre lo será. Comienza ya a defender tu Ancestro.",
+
+    "reseñas": [
+        "“Una obra maestra de los juegos multijugador modernos.” 9.5/10 –",
+        "“Una vez que empiezas a descubrir sus secretos, hay una salvaje y emocionante variedad de formas de jugar inigualables en el género.” 9.4/10 –",
+        "“Dota 2 es posiblemente el único juego gratuito competitivo cuyo modelo de negocio no afecta en absoluto a la jugabilidad.” 90/100 –"
+    ],
+
+    "autores": ["Destructoid", "IGN", "PC Gamer"],
+
+    "requisitosSistemaMínimos": [{
+        "dato": "Requiere un procesador y un sistema operativo de 32 bits",
+        "SO": "Windows 7 o posterior",
+        "Procesador": "Intel o AMD de doble núcleo de 64 bits a 2.8 GHz",
+        "Memoria": "4 GB de RAM",
+        "Almacenamiento": "15 GB de espacio disponible",
+        "Gráficos": " NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600",
+        "Tarjeta_Sonido": "DirectX 9.0c Compatible"
+    }],
+    "videoPath": "/imagenes/Videos/Dota 2.mp4",
+    "imgPathV": "imagenes/Vertical/dota.jpg",
+    "imgPathH": "imagenes/Horizontal/DOTA2.jpg",
+    "gamePath": "Juegos/dota2.html"
+}, {
+    "id": 7,
+    "tipo": "Producto",
+    "nombre": "Divinity Original Sin 2",
+    "géneros": ["Acción", "Rol", "Aventura", "Estrategia"],
+    "generos": "accion rol aventura estrategia",
+    "productoDestacado": false,
+    "productoOferta": false,
+    "productoRecomendado": false,
+    "precioBase": ["ARS$", 489.99],
+    "precioDescuento": false,
+    "descuento": false,
+
+    "imgSliderPath": false,
+    "descripciónSlider": false,
+
+    "desarrollador": ["Larian Studios"],
+    "editor": "Larian Studios",
+    "franquicia": false,
+    "fechaDeLanzamiento": "14 SEPTIEMBRE 2017",
+    "descripción": "Lo Divino está muerto. El Vacío se acerca. Y los poderes latentes dentro de ti pronto despertarán. La batalla por la Divinidad ha comenzado. Elija sabiamente y confíe con moderación; la oscuridad acecha dentro de cada corazón.",
+
+    "reseñas": [
+        "“Uno de los juegos de rol más cautivadores jamás creados.” 10/10 –",
+        "“La secuela épica de Larian es uno de los mejores juegos de rol de la década.” 9.6/10 –",
+        "“Uno de los mejores juegos de rol para PC de todos los tiempos.” 9.75/10 –"
+    ],
+
+    "autores": ["GameSpot", "IGN", "GameInformer"],
+
+    "requisitosSistemaMínimos": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows 7 SP1 64-bit, Windows 8.1 64-bit o Windows 10 64-bit",
+        "Procesador": "Intel Core i5 o equivalente",
+        "Memoria": "4 GB de RAM",
+        "Almacenamiento": "60 GB de espacio disponible",
+        "Gráficos": "NVIDIA® GeForce® GTX 550 o ATI™ Radeon™ HD 6XXX o posteriores",
+        "Tarjeta_Sonido": "DirectX 11 Compatible"
+    },
+    "requisitosSistemaRecomendados": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows 7 SP1 64-bit, Windows 8.1 64-bit o Windows 10 64-bit",
+        "Procesador": "Intel Core i7 o equivalente",
+        "Memoria": "8 GB de RAM",
+        "Almacenamiento": "60 GB de espacio disponible",
+        "Gráficos": "NVIDIA GeForce GTX 770 o AMD R9 280",
+        "Tarjeta_Sonido": "DirectX 11 Compatible"
+
+    },
+    "videoPath": "imagenes/Videos/Divinity2.mp4",
+    "imgPathV": "imagenes/Vertical/divinity2.jpg",
+    "imgPathH": "imagenes/Horizontal/DIVINITY2.jpg",
+    "gamePath": "Juegos/divinity.html"
+}, {
+    "id": 6,
+    "tipo": "Producto",
+    "nombre": "Dark Souls Remastered",
+    "géneros": ["Acción", "Rol", "Aventura", "MMO"],
+    "generos": "accion rol aventura mmo",
+    "productoDestacado": false,
+    "productoOferta": false,
+    "productoRecomendado": true,
+    "precioBase": ["ARS$", 1199.0],
+    "precioDescuento": false,
+    "descuento": false,
+
+    "imgSliderPath": false,
+    "descripciónSlider": false,
+
+    "desarrollador": ["FromSoftware, Inc"],
+    "editor": ["FromSoftware.Inc", "BANDAI NAMCO Entertainment"],
+    "franquicia": "BANDAI NAMCO Entertainment",
+    "fechaDeLanzamiento": "9 OCTUBRE 2013",
+    "descripción": "Luego, hubo fuego. Vuelve a experimentar el juego de definición de género aclamado por la crítica que lo inició todo. Maravillosamente remasterizado, vuelve a Lordran con asombrosos detalles de alta definición a 60 fps. Dark Souls Remastered incluye el juego principal más el DLC Artorias of the Abyss.",
+
+    "reseñas": [
+        "“Jugar Dark Souls en una computadora de mano agrega una nueva dimensión absorbente a una aventura familiar.” 9.5/10 –",
+        "“Un buen remaster de PC para aquellos a los que no les gustan los mods. Dark Souls sigue siendo impresionante, pero no esperes un salto comparable al de la remasterización de CoD.” 84/100 –",
+        "“Al final del día, esta es la manera perfecta de jugar Dark Souls. Si eres un jugador nuevo, el juego seguirá siendo igual de desafiante, pero se verá y se sentirá como un juego mucho más moderno. Si eres un veterano, este es un hermoso viaje lleno de nostalgia.” 100/100 –"
+    ],
+
+    "autores": ["IGN", "Game Star", "Gaming Age"],
+
+    "requisitosSistemaMínimos": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows 7 64-bit, Service Pack 1",
+        "Procesador": "Intel Core i5-2300 2.8 GHz / AMD FX-6300, 3.5 GHz",
+        "Memoria": "6 GB de RAM",
+        "Almacenamiento": "8 GB de espacio disponible",
+        "Gráficos": "GeForce GTX 460, 1 GB / Radeon HD 6870, 1 GB",
+        "Tarjeta_Sonido": "DirectX 11 Compatible"
+    },
+
+    "requisitosSistemaRecomendados": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows 10 64-bit",
+        "Procesador": " Intel Core i5-4570 3.2 GHz / AMD FX-8350 4.2 GHz",
+        "Memoria": "8 GB de RAM",
+        "Almacenamiento": "8 GB de espacio disponible",
+        "Gráficos": "GeForce GTX 660, 2 GB / Radeon HD 7870, 2 GB",
+        "Tarjeta_Sonido": "DirectX 11 Compatible"
+    },
+
+    "videoPath": "/imagenes/Videos/Dark Souls Remastered.mp4",
+    "imgPathV": "imagenes/Vertical/dsre.jpg",
+    "imgPathH": "imagenes/Horizontal/DSREMASTERED.jpg",
+    "gamePath": "Juegos/darksoulsre.html"
+}, {
+    "id": 5,
+    "tipo": "Producto",
+    "nombre": "Dark Souls™ III",
+    "géneros": ["Acción", "Rol", "Aventura", "MMO"],
+    "generos": "accion rol aventura mmo",
+    "productoDestacado": false,
+    "productoOferta": true,
+    "productoRecomendado": true,
+    "precioBase": ["ARS$", 4057.48],
+    "precioDescuento": ["ARS$", 2333.05],
+    "descuento": [42.5, "%"],
+
+    "imgSliderPath": false,
+    "descripciónSlider": false,
+
+    "desarrollador": ["FromSoftware, Inc"],
+    "editor": ["FromSoftware.Inc", "Techland"],
+    "franquicia": "BANDAI NAMCO Entertainment",
+    "fechaDeLanzamiento": "11 ABRIL 2016",
+    "descripción": "A medida que los incendios se apagan y el mundo se arruina, viaja a un universo lleno de enemigos y entornos más colosales. Los jugadores se sumergirán en un mundo de atmósfera épica y oscuridad a través de un juego más rápido y una intensidad de combate amplificada. Tanto los fanáticos como los recién llegados se perderán en el característico juego gratificante y gráficos envolventes. Ahora solo quedan brasas ... ¡Prepárate una vez más y abraza la oscuridad!",
+
+    "reseñas": [
+        "“El increíble mundo de Dark Souls 3 y las impresionantes artes de las armas lo convierten en la entrega más feroz hasta el momento.” 9.5/10 –",
+        "“El diseño de niveles en expansión, los combates emocionantes y la narración indirecta magistral hacen de Dark Souls 3 el mejor Dark Souls hasta ahora.” 94% –",
+        "“Dark Souls III replica con éxito la fórmula ganadora de la serie Souls, una maravillosa combinación de majestuosas batallas contra jefes, increíbles entornos en capas llenos de secretos y combates precisos que pueden hacer que otros juegos de rol de acción sean difíciles de jugar una vez que domines el arte.” 9.25/10 –"
+    ],
+
+    "autores": ["IGN", "PC Gamer", "GameInformer"],
+
+    "requisitosSistemaMínimos": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows 7 SP1 64bit, Windows 8.1 64bit Windows 10 64-bit",
+        "Procesador": "Intel Core i3-2100 / AMD® FX-6300",
+        "Memoria": "4 GB de RAM",
+        "Almacenamiento": "25 GB de espacio disponible",
+        "Gráficos": "NVIDIA® GeForce GTX 750 Ti / ATI Radeon HD 7950",
+        "Tarjeta_Sonido": "DirectX 11 Compatible"
+    },
+
+    "requisitosSistemaRecomendados": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows 7 SP1 64bit, Windows 8.1 64bit Windows 10 64-bit",
+        "Procesador": "Intel Core i7-3770 / AMD® FX-8350",
+        "Memoria": "8 GB de RAM",
+        "Almacenamiento": "25 GB de espacio disponible",
+        "Gráficos": "NVIDIA® GeForce GTX 970 / ATI Radeon R9 series",
+        "Tarjeta_Sonido": "DirectX 11 Compatible"
+    },
+
+    "videoPath": "imagenes/Videos/Dark Souls III.mp4",
+    "imgPathV": "imagenes/Vertical/ds3.jpg",
+    "imgPathH": "imagenes/Horizontal/DS3.jpg",
+    "gamePath": "Juegos/darksouls3.html"
+}, {
+    "id": 4,
+    "tipo": "Producto",
+    "nombre": "Borderlands 2 ",
+    "géneros": ["Acción", "Rol", "Aventura", "MMO"],
+    "generos": "accion rol aventura mmo",
+    "productoDestacado": true,
+    "productoOferta": true,
+    "productoRecomendado": false,
+    "precioBase": ["ARS$", 495.45],
+    "precioDescuento": ["ARS$", 208.09],
+    "descuento": [42, "%"],
+
+    "imgSliderPath": "../imagenes/Slider/border2.jpg",
+    "descripciónSlider": "Está a punto de comenzar una nueva era de disparos y botines. Juega como uno de los cuatro nuevos cazadores de bóvedas que se enfrentan a un nuevo mundo masivo de criaturas, psicópatas y el malvado cerebro, Handsome Jack. Haz nuevos amigos, equípalos con un millón de armas y lucha junto a ellos en un modo cooperativo de 4 jugadores en una búsqueda incesante de venganza y redención a través del impredecible y desconocido planeta viviente.",
+
+    "desarrollador": ["Gearbox Software", "Aspyr (Mac)", "Aspyr (Linux)"],
+    "editor": ["2k", "Aspyr (Mac)", "Aspyr (Linux)"],
+    "franquicia": "Borderlands",
+    "fechaDeLanzamiento": "20 SEPTIEMBRE 2012",
+    "descripción": "Está a punto de comenzar una nueva era de disparos y botines. Juega como uno de los cuatro nuevos cazadores de bóvedas que se enfrentan a un nuevo mundo masivo de criaturas, psicópatas y el malvado cerebro, Handsome Jack. Haz nuevos amigos, equípalos con un millón de armas y lucha junto a ellos en un modo cooperativo de 4 jugadores en una búsqueda incesante de venganza y redención a través del impredecible y desconocido planeta viviente.",
+
+    "reseñas": [
+        "“Prepárate para nivelar. Prepárate para saquear. Prepárate para perderte en el hilarante, extraño y maravilloso mundo de Pandora.” 9/10 –",
+        "“Borderlands 2 se destaca como la obra magna de Gearbox, y uno de los juegos más memorables y divertidos en los que he estado.” 4.5/5 –",
+        "“Este es el juego, y hace que Borderlands sea persistentemente fresco de una manera que otros shooters nunca lo son.” 90/100 –"
+    ],
+
+    "autores": ["IGN", "GameSpy", "PC Gamer"],
+
+
+    "requisitosSistemaMínimos": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows XP SP3",
+        "Procesador": "Procesador 2.4 GHz Dual Core ",
+        "Memoria": "256 MB de RAM",
+        "Almacenamiento": "8 GB de espacio disponible",
+        "Gráficos": "NVIDIA GeForce 8500 /ATI Radeon HD 2600",
+        "Tarjeta_Sonido": "DirectX 9.0 Compatible"
+    },
+
+    "requisitosSistemaRecomendados": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows XP SP3/Vista/Win 7",
+        "Procesador": "Procesador 2.3 GHz Quad Core",
+        "Memoria": "2 GB de RAM",
+        "Almacenamiento": "8 GB de espacio disponible",
+        "Gráficos": "NVIDIA GeForce GTX 560 / ATI Radeon HD 5850",
+        "Tarjeta_Sonido": "DirectX 9.0 Compatible"
+    },
+
+    "videoPath": "imagenes/Videos/Borderlands2.mp4",
+    "imgPathV": "imagenes/Vertical/borderlands.jpg",
+    "imgPathH": "imagenes/Horizontal/BORDERLANDS2.jpg",
+    "gamePath": "Juegos/borderlands2.html"
+}, {
+    "id": 3,
+    "tipo": "Producto",
+    "nombre": "Beyond Two Souls",
+    "géneros": ["Acción", "Aventura"],
+    "generos": "accion aventura ",
+    "productoDestacado": false,
+    "productoOferta": false,
+    "productoRecomendado": true,
+    "precioBase": ["ARS$", 3268.98],
+    "precioDescuento": false,
+    "descuento": false,
+
+    "imgSliderPath": false,
+    "descripciónSlider": false,
+
+    "desarrollador": ["Quantic Dream"],
+    "editor": ["Quantic Dream"],
+    "franquicia": false,
+    "fechaDeLanzamiento": "9 OCTUBRE 2013",
+    "descripción": "Jodie nació vinculada a una entidad misteriosa con increíbles poderes, y por ello, es diferente. Tus acciones determinarán el destino de Jodie, mientras se enfrenta a desafíos singulares, peligros extraordinarios y desgarradoras pérdidas en una aventura para descubrir la verdad sobre su ser. Crea una historia repleta de acción a través de tus decisiones y acciones mientras te pones en la piel de una chica que nació con un vínculo a una entidad sobrenatural llamada Aiden. Mientras juegas como Jodie y Aiden, encontrarás desafíos físicos y psicológicos increíbles para comprender lo que en verdad existe... más allá.",
+
+    "reseñas": [
+        "“Beyond Two Souls fusiona tan fácilmente la historia y la mecánica que te enamoras de esta joven y de su extraordinaria vida.” 9/10 –",
+        "“Beyond Two Souls nos hace partícipes de una historia tan buena como la ofrecida por cualquier obra de Quantic Dream, pero potenciada al máximo gracias a la presencia de actores profesionales y diseños faciales que rozan el realismo. Nuevamente, lo paranormal toca la puerta y nuestro sentimiento de intriga servirá como propulsor para disfrutar de una historia que no tiene desperdicio.” 4/5 –",
+        "“Beyond Two Souls no estuvo a la altura de las expectativas de su gran producción; está lejos de ser un buen juego o una buena película, y ni la resolución ni los cuadros por segundo cambiarán eso. La virtud de esta entrega es, simplemente, aparentar más de lo que es.” 6.8/10 –"
+    ],
+
+    "autores": ["GameSpot", "Solo Jugadores", "Level Up"],
+
+    "requisitosSistemaMínimos": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows 7 o posteriores",
+        "Procesador": "Intel Core i5-4430 @ 3.0 GHz or AMD FX-6300 @ 3.5 GHz",
+        "Memoria": "4 GB de RAM",
+        "Almacenamiento": "49 GB de espacio disponible",
+        "Gráficos": "Nvidia GeForce GTX 660 con 2GB VRAM o AMD Radeon HD 7870 con 2GB VRAM",
+        "Tarjeta_Sonido": "DirectX 11 Compatible"
+    },
+    "requisitosSistemaRecomendados": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows 7 o posteriores",
+        "Procesador": "Intel Core i5-6600K @ 3.5GHz o AMD Ryzen 3 1300X @ 3.4GHz",
+        "Memoria": "8 GB de RAM",
+        "Almacenamiento": "49 GB de espacio disponible",
+        "Gráficos": "Nvidia GeForce GTX 970 con 4GB VRAM o AMD Radeon R9 390 con 4GB VRAM",
+        "Tarjeta_Sonido": "DirectX 11 Compatible"
+    },
+
+    "videoPath": ["../imagenes/Videos/Beyond Two Souls.mp4"],
+    "imgPathV": "imagenes/Vertical/b2s.jpg",
+    "imgPathH": "imagenes/Horizontal/Beyond2souls.jpg",
+    "gamePath": "Juegos/beyondtwosouls.html"
+}, {
+    "id": 2,
+    "tipo": "Producto",
+    "nombre": "Assassin's Creed Valhalla",
+    "géneros": ["Acción", "Rol", "Aventura"],
+    "generos": "accion rol aventura",
+    "productoDestacado": false,
+    "productoOferta": false,
+    "productoRecomendado": true,
+    "precioBase": ["ARS$", 3697.34],
+    "precioDescuento": false,
+    "descuento": false,
+
+    "imgSliderPath": false,
+    "descripciónSlider": false,
+
+    "desarrollador": ["Ubisoft Montreal"],
+    "editor": "Ubisoft",
+    "franquicia": ["Assassin's Creed"],
+    "fechaDeLanzamiento": "10 NOVIEMBRE 2020",
+    "descripción": "En Assassin's Creed Valhalla, te pondrás en la piel de Eivor, una leyenda vikinga en busca de gloria. Explora la Inglaterra de los años oscuros mientras saqueas a tus enemigos, haces prosperar tu asentamiento y consolidas tu poder político.",
+
+    "reseñas": [
+        "“Assassin's Creed Valhalla está lleno de historias interesantes y divertidos sistemas entrelazados, lo que lo convierte en un mundo fascinante en el que puedes perderte fácilmente.” 9.3/10 –",
+        "“Sangriento y cautivador, Valhalla es Assassin's Creed en su mejor momento.” 92/100 –",
+        "“Valhalla es otra enorme saga de Assassin's Creed, lujosamente diseñada, con la mira puesta en la dirección de la historia sobre la elección narrativa.” Recomendable –"
+    ],
+
+    "autores": ["GameInformer", "PC Gamer", "Eurogamer"],
+
+
+    "requisitosSistemaMínimos": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows 7 64-bit, Service Pack 1",
+        "Procesador": "Intel Core i5-2300 2.8 GHz / AMD FX-6300, 3.5 GHz",
+        "Memoria": "8 GB de RAM",
+        "Almacenamiento": "8 GB de espacio disponible",
+        "Gráficos": "GeForce GTX 460, 1 GB / Radeon HD 6870, 1 GB",
+        "Tarjeta_Sonido": "DirectX 11 Compatible"
+    },
+
+    "requisitosSistemaRecomendados": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows 10 64-bit",
+        "Procesador": "Intel Core i5-4570 3.2 GHz / AMD FX-8350 4.2 GHz",
+        "Memoria": "8 GB de RAM",
+        "Almacenamiento": "8 GB de espacio disponible",
+        "Gráficos": "GeForce GTX 660, 2 GB / Radeon HD 7870, 2 GB",
+        "Tarjeta_Sonido": "DirectX 11 Compatible"
+    },
+    "videoPath": "imagenes/Videos/ASSASSIN'S CREED VALHALLA.mp4",
+    "imgPathV": "imagenes/Vertical/asvalhalla.jpg",
+    "imgPathH": "imagenes/Horizontal/ASVALHALLA.jpg",
+    "gamePath": "Juegos/assassinscreedvalhalla.html"
+}, {
+    "id": 1,
+    "tipo": "Producto",
+    "nombre": "Ark Survival Evolved",
+    "géneros": ["Acción", "Rol", "Aventura", "MMO"],
+    "generos": "accion rol aventura mmo",
+    "productoDestacado": false,
+    "productoOferta": false,
+    "productoRecomendado": true,
+    "precioBase": ["ARS$", 329.99],
+    "precioDescuento": false,
+    "descuento": false,
+
+    "imgSliderPath": false,
+    "descripciónSlider": false,
+
+    "desarrollador": [
+        "Studio Wildcard",
+        "Instinct Games",
+        "Efecto Studios",
+        "Virtual Basement LLC"
+    ],
+    "editor": ["Studio Wildcard"],
+    "franquicia": false,
+    "fechaDeLanzamiento": "27 AGOSTO 2017",
+    "descripción": "Como hombre o mujer varado desnudo, helado y hambriento en las costas de una isla misteriosa llamada ARK, debes cazar, recolectar recursos, fabricar artículos, cultivar, investigar tecnologías y construir refugios para resistir los elementos. Usa tu astucia y tus recursos para matar o domesticar y criar a los dinosaurios leviatán y otras criaturas primitivas que deambulan por la tierra, y únete o aprovecha a cientos de otros jugadores para sobrevivir, dominar ... ¡y escapar!",
+
+    "reseñas": [
+        "“Es divertido, desafiante y, si juegas en equipo, una aventura fantástica.” 7.5/10 –",
+        "“ARK: Survival Evolved tiene grandes momentos de batalla con bestias prehistóricas, pero también muchos errores de IA y grind.” 7.7/10 –",
+        "“La dificultad y la atmósfera implacables son las principales características del simulador de dino-supervivencia Ark: Survival Evolved.” 6/10 –"
+    ],
+
+    "autores": ["3D Juegos", "IGN", "GameSpot"],
+
+    "requisitosSistemaMínimos": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows 7/8.1/10",
+        "Procesador": "Intel Core i5-2400/AMD FX-8320 o posteriores",
+        "Memoria": "8 GB de RAM",
+        "Almacenamiento": "60 GB de espacio disponible",
+        "Gráficos": "NVIDIA GTX 670 2GB/AMD Radeon HD 7870 2GB o posteriores",
+        "Tarjeta_Sonido": "DirectX 10 Compatible"
+    },
+
+    "requisitosSistemaRecomendados": {
+        "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO": "Windows 7/8.1/10",
+        "Procesador": "Intel Core i5-2400/AMD FX-8320 o posteriores",
+        "Memoria": "8 GB de RAM",
+        "Almacenamiento": "60 GB de espacio disponible",
+        "Gráficos": "NVIDIA GTX 670 2GB/AMD Radeon HD 7870 2GB o posteriores",
+        "Tarjeta_Sonido": "DirectX 10 Compatible"
+    },
+    "videoPath": "imagenes/Videos/ARK - Survival Evolved.mp4",
+    "imgPathV": "imagenes/Vertical/ark.jpg",
+    "imgPathH": "imagenes/Horizontal/ARK.jpg",
+    "gamePath": "Juegos/ark.html"
+}]

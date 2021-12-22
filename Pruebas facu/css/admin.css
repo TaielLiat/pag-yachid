@@ -1,0 +1,190 @@
+  body {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+  
+  @media screen and (max-width: 650px) {
+      .sidebar-menu {
+          display: none;
+      }
+      .centro {
+          margin-top: -14px;
+          width: 100%;
+          left: 0;
+      }
+      .sidebar-box {
+          margin-left: -201px;
+      }
+  }
+  
+  .sidebar-box {
+      padding-top: 94px;
+      position: relative;
+      background-image: url(https://image.freepik.com/vector-gratis/colorido-triangulo-geometrico-patron-fondo_54572-91.jpg);
+      height: 1000vh;
+      width: 100%;
+  }
+  
+  .sidebar-box .sidebar-menu {
+      z-index: 2;
+      background-color: rgba(44, 44, 44, 0.4);
+      box-shadow: 0 0 6px rgb(0, 0, 0);
+      position: fixed;
+      height: 100vh;
+      width: 200px;
+  }
+  
+  .sidebar-menu .logo-admin {
+      position: relative;
+      width: 100%;
+      height: 60px;
+      box-shadow: 0 0 6px rgba(44, 44, 44, 0.4);
+      background-color: rgba(19, 19, 19, 0.4);
+  }
+  
+  .sidebar-menu .logo-admin a {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-weight: 500;
+      position: absolute;
+      left: 3%;
+      line-height: 60px;
+      font-size: 1.4rem;
+  }
+  
+  .sidebar-menu .perfil {
+      position: relative;
+      margin: 10px 5% 5px;
+      margin-bottom: 10%;
+      width: 100px;
+      height: 100px;
+      border-radius: 150px;
+  }
+  
+  .sidebar-menu a {
+      text-decoration: none !important;
+      color: aliceblue;
+  }
+  
+  .sidebar-menu li {
+      font-family: sans-serif;
+      padding: 10px 30% 20px;
+      list-style: none;
+      margin-left: -30%;
+  }
+  
+  .sidebar-menu li:hover {
+      border-left: 1px solid black;
+      background-color: rgba(103, 95, 170, 0.3);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+  }
+  
+  .icono {
+      filter: invert(0.2);
+      width: 2.3vh;
+      display: inline-block;
+      margin-bottom: -6%;
+  }
+  
+  .centro {
+      position: relative;
+      background-color: rgb(216, 216, 216);
+      margin-left: 201px;
+      margin-right: 201px;
+      height: 100%;
+  }
+  
+  .centro li {
+      display: inline-block;
+  }
+  
+  .centro .titulo {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: rgb(0, 0, 0);
+      font-size: 2rem;
+      text-align: center;
+      margin: auto;
+      box-shadow: 0px 0px 10px 3px rgba(95, 0, 0, 0.3);
+  }
+  
+  .centro .arriba-titulo {
+      margin-left: 30%;
+      margin-right: 30%;
+      border: 1px solid black;
+  }
+  
+  .perfil {
+      width: 90px;
+      height: 90px;
+      border: 2px solid black;
+  }
+  
+  .formulario p {
+      font-size: 1.2rem;
+      font-family: sans-serif;
+  }
+  
+  .formulario {
+      background-color: rgba(255, 227, 152, 0.2);
+      box-shadow: 0 0 6px rgb(0, 0, 0);
+      border-radius: 2rem;
+      margin-right: 30%;
+      margin-left: 30%;
+      padding: 3%;
+  }
+  
+  .formulario li {
+      text-decoration: none;
+  }
+  
+  .formulario input {
+      position: relative;
+      width: 50%;
+      font-size: 17px;
+      color: #b8b8b8;
+  }
+  
+  .formulario span {
+      color: rgb(45, 88, 49);
+      font-size: small;
+  }
+  
+  .creador {
+      font-family: sans-serif;
+      text-align: center;
+      margin-left: 30%;
+      margin-right: 30%;
+      border-radius: 2%;
+      font-size: 2rem;
+      box-shadow: 0 0 4px rgba(27, 27, 27, 0.5);
+  }
+  
+  .creador:hover {
+      box-shadow: 0 0 4px rgba(27, 27, 27, 0.5);
+      transform: scale(1.1);
+  }
+  
+  .tabla {
+      width: 90%;
+      padding: 3%;
+      margin-left: 5%;
+      text-align: center;
+      background-color: rgb(240, 240, 240);
+      font-family: sans-serif;
+  }
+  
+  .tabla tbody {
+      border: 1px solid black;
+  }
+  
+  .tabla th {
+      margin-left: 3%;
+      border-bottom: 1px solid black;
+  }
+  
+  .tabla td {
+      padding: 10px;
+      background-color: #d4d4d4;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+  }

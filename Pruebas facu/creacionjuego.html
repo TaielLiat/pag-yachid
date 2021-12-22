@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/hud.css">
+    <link rel="stylesheet" href="css/productonuevo.css">
+
+    <title id="nombre">Document</title>
+
+</head>
+
+<body media="all">
+    <header id="header_nav"></header>
+    <!------------------VIDEO-------------->
+    <section style="display: flex;" id="video"></section>
+    <!------------------DATOS-------------->
+    <div class="juego-box">
+        <source id="imgV">
+        <div class="info-box ">
+            <div id="informacion"></div>
+            <!------------------DESCRIPCION-------------->
+            <div class="descripcion ">
+                <div class="titulo">
+                    <p> ACERCA DE ESTE JUEGO </p>
+                    <hr>
+                </div>
+                <p class="texto" id="acerca"></p>
+            </div>
+            <!------------------RESE;AS-------------->
+            <div id="reseñas"></div>
+        </div>
+        <!---->
+        <div class="requisitos">
+            <div class="requisitos-box">
+                <p class="titulo"> REQUISITOS DEL SISTEMA</p>
+                <div class="orden">
+                    <ul>
+                        <div id="req_minimos"></div>
+                    </ul>
+                    <ul>
+                        <div id="req_recomendados"></div>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br> <br>
+    <div class="card">
+        <div class="row">
+            <div> <img src="imagenes/perfil.jpg" width="70" class="redondeado"> </div>
+            <div class="comment-box ml-2">
+                <h4>USUARIO</h4>
+                <div class="rating"> <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                    <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label> </div>
+                <div class="comment-area"> <input id="input" class="form-control" type="text" placeholder="Agregar comentario"></input>
+                </div>
+                <div class="botones">
+                    <div class="row">
+                        <div> <button id="cancelar" class="cancelar"> Cancelar </button> </div>
+                        <div> <button id="boton" class="enviar"> Enviar </button> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer style="width: 100%;" id="footer_nav"></footer>
+
+    <script src="js/juegoprueba.js"></script>
+    <script src="js/hud.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,420 @@
+body {
+    margin: 0;
+}
+
+
+/* ======== NAVBAR ======= */
+
+.titulo-yachid {
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+nav a {
+    font-family: sans-serif;
+}
+
+.navbar {
+    /* ORDEN CONTENIDO */
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between
+}
+
+@media (min-width:768px) {
+    .navbar-expand-md {
+        flex-wrap: nowrap;
+        justify-content: flex-start
+    }
+    .navbar-expand-md .navbar-nav {
+        flex-direction: row
+    }
+    .navbar-expand-md .navbar-nav .dropdown-menu {
+        position: absolute
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem
+    }
+    .navbar-expand-md .navbar-nav-scroll {
+        overflow: visible
+    }
+    .navbar-expand-md .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto
+    }
+    .navbar-expand-md .navbar-toggler {
+        display: none
+    }
+    .navbar-expand-md .offcanvas-header {
+        display: none
+    }
+    .navbar-expand-md .offcanvas {
+        position: inherit;
+        bottom: 0;
+        z-index: 1000;
+        flex-grow: 1;
+        visibility: visible!important;
+        background-color: transparent;
+        border-right: 0;
+        border-left: 0;
+        transition: none;
+        transform: none
+    }
+    .navbar-expand-md .offcanvas-bottom,
+    .navbar-expand-md .offcanvas-top {
+        height: auto;
+        border-top: 0;
+        border-bottom: 0
+    }
+    .navbar-expand-md .offcanvas-body {
+        display: flex;
+        flex-grow: 0;
+        padding: 0;
+        overflow-y: visible
+    }
+}
+
+.navbar-dark {
+    color: rgb(31, 31, 31)
+}
+
+.fixed-top {
+    /* POSICION CONTENIDO */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.bg-dark {
+    /* COLOR DEL FONDO */
+    --bs-bg-opacity: 1;
+    background-color: rgb(39, 39, 39)!important;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto
+}
+
+.navbar-brand {
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap
+}
+
+.openbtn {
+    /* BOTON */
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.mb-2 {
+    margin-bottom: .5rem!important;
+}
+
+.mb-md-0 {
+    margin-bottom: 0!important
+}
+
+
+/* ===== SIDEBAR ===== */
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 10px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #a5a5a5;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height:720) {
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    }
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.btn:hover {
+    color: #212529
+}
+
+.btn-toggle[aria-expanded="true"]::before {
+    transform: rotate( 90deg);
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25)
+}
+
+.btn.disabled,
+.btn:disabled,
+fieldset:disabled .btn {
+    pointer-events: none;
+    opacity: .65
+}
+
+.btn-toggle::before {
+    width: 1.25em;
+    line-height: 0;
+    content: url(data:image/svg+xml,%3csvg) xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6';
+    transition: transform .35s ease;
+    transform-origin: .5em 50%;
+}
+
+.btn-toggle[aria-expanded="true"]::before {
+    transform: rotate( 90deg);
+}
+
+.align-items-center {
+    align-items: center!important
+}
+
+
+/*.collapsed {} */
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease
+}
+
+@media (prefers-reduced-motion:reduce) {
+    .accordion-button {
+        transition: none
+    }
+}
+
+.accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background-color: #e7f1ff;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125)
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    transform: rotate(-180deg)
+}
+
+.collapse:not(.show) {
+    display: none
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none
+}
+
+
+/*.show {}*/
+
+.link-dark {
+    color: #212529
+}
+
+.link-dark:focus,
+.link-dark:hover {
+    color: #1a1e21
+}
+
+.rounded {
+    border-radius: .25rem!important
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    /* BOTON PRESIONADO*/
+    background-color: #444;
+}
+
+.mb-1 {
+    margin-bottom: .25rem!important
+}
+
+
+/* ====== FOOTER ====== */
+
+.pieDePagina {
+    background-color: rgb(39, 39, 39);
+    margin-top: 3%;
+    border-color: black;
+    width: 100%;
+    font-family: sans-serif;
+    bottom: 0;
+}
+
+.box_redes {
+    margin-left: 2%;
+    margin-top: 0;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.titulo-redes-sociales {
+    color: gainsboro;
+    padding-top: 2rem;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+
+/* ====== FIN DEL FOOTER ====== */
+
+
+/* ====== SCROLLBAR ====== */
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 14px;
+    background: transparent;
+    z-index: 12;
+    /* overflow: visible; */
+}
+
+ ::-webkit-scrollbar-corner {
+    background: #202020;
+}
+
+ ::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: #434953;
+    border-radius: 10px;
+    z-index: 12;
+    border: 4px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    transition: background-color .32s ease-in-out;
+    margin: 4px;
+    min-height: 32px;
+    min-width: 32px;
+}
+
+ ::-webkit-scrollbar {
+    height: 12px;
+    width: 14px;
+    background: transparent;
+    z-index: 12;
+    overflow: visible;
+}
+
+
+/* ====== FIN SCROLLBAR ====== */

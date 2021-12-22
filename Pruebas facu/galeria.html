@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/hud.css">
+    <link rel="stylesheet" href="css/galeriaStyle.css">
+    <link rel="icon" type="image/png" href="imagenes/logofondo.png" title="Logo">
+    <title>Sección de Productos</title>
+</head>
+
+<body style="background-color: rgb(26, 26, 26);">
+    <header id="header_nav"> </header>
+    <section class="gallery section container">
+        <h2 class="section-title">SECCIÓN DE <span style="color: white;"> PRODUCTOS</span></h2>
+        <div class="gallery__list" id="gallery-list">
+            <a id="producto" href="#" class="gallery__category active" data-filter="all">Todos</a>
+            <a href="#" class="gallery__category" data-filter=".free">Free to play</a>
+            <a href="#" class="gallery__category" data-filter=".accion">Acción</a>
+            <a href="#" class="gallery__category" data-filter=".aventura">Aventuras</a>
+            <a href="#" class="gallery__category" data-filter=".carrera">Carreras</a>
+            <a href="#" class="gallery__category" data-filter=".deporte">Deportes</a>
+            <a href="#" class="gallery__category" data-filter=".estrategia">Estrategia</a>
+            <a href="#" class="gallery__category" data-filter=".mmo">MMO</a>
+            <a href="#" class="gallery__category" data-filter=".rol">Rol</a>
+            <a href="#" class="gallery__category" data-filter=".simulador">Simuladores</a>
+            <a href="#" class="gallery__category" data-filter="">A-Z</a>
+            <a href="#" class="gallery__category" data-filter="">Z-A</a>
+            <a href="#" class="gallery__category" data-filter="">MENOR PRECIO</a>
+            <a href="#" class="gallery__category" data-filter="">MAYOR PRECIO</a>
+        </div>
+
+        <div id="respuesta" class="gallery__products">
+
+        </div>
+    </section>
+
+    <footer id="footer_nav"></footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="js/galeria.js"></script>
+    <script src="js/hud.js"></script>
+</body>
+
+</html>

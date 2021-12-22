@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Contacto</title>
+    <script src="login.js"></script>
+    <link rel="stylesheet" href="css/estilosContacto.css">
+    <link rel="stylesheet" href="css/boostrap.css">
+    <link rel="icon" type="image/png" href="imagenes/logofondo.png" title="Logo">
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<script>
+    function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+    }
+</script>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <img class="navbar-brand" src="imagenes/Logo.png" height="60px" style="background-color: rgb(0, 230, 57); border-radius: 50px; padding: 2px;"> </img>
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="./index.html" style="padding-left: 10px;color: #c7c7c7">Inicio</a>
+                <a href="#ofertas " style="padding-left: 10px;color: #c7c7c7 ">Ofertas</a>
+                <a href="#recomendados" style="padding-left: 10px;color: #c7c7c7">Recomendados</a>
+                <a href="./seccion-productos.html" style="padding-left: 10px;color: #c7c7c7 ">Todos los juegos</a>
+
+
+                <!-- Listas -->
+
+                <ul class="list-unstyled ps-0">
+                    <li class="mb-1">
+                        <button style="color: #f1f1f1; font-size: 20px;" class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                Categorias
+              </button>
+                        <div class="collapse show" id="home-collapse">
+                            <ul class="list-unstyled">
+                                <li><a href="# " class="link-dark rounded ">Free to play</a></li>
+                                <li><a href="#" class="link-dark rounded ">Acción</a></li>
+                                <li><a href="# " class="link-dark rounded ">Aventuras</a></li>
+                                <li><a href="# " class="link-dark rounded ">Carreras </a></li>
+                                <li><a href="# " class="link-dark rounded ">Deportes</a></li>
+                                <li><a href="# " class="link-dark rounded ">Estrategia</a></li>
+                                <li><a href="# " class="link-dark rounded ">Multijugador masivo</a></li>
+                                <li><a href="# " class="link-dark rounded ">Rol</a></li>
+                                <li><a href="# " class="link-dark rounded ">Simuladores</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="border-top my-3"></li>
+                    <li class="mb-1">
+                        <a href=".contacto.html" style="padding-left: 10px;color: #c7c7c7 ">Contacto</a>
+                    </li>
+                </ul>
+                <!-- Listas -->
+            </div>
+            <div id="main ">
+                <button class="openbtn " onclick="openNav() ">☰ </button>
+            </div>
+            <div class="collapse navbar-collapse " id="navbarCollapse ">
+                <ul class="navbar-nav  mb-2 mb-md-0 ">
+                    <p class="titulo-yachid"> YACHID GAMING</p>
+                </ul>
+    </nav>
+    </head>
+    <div class="box ">
+        <form action=" " class="form_envio ">
+            <h2 style="padding-top: 5%; ">CONTACTO</h2>
+            <div class="textboxes ">
+                <div class="inputTexto ">
+                    <input type="text " id="nomYAp " name="Nombre y Apellido " placeholder="Nombre y Apellido "><br>
+                </div>
+                <div id='errorNombreYAp'>
+
+                </div>
+                <div class="inputTexto ">
+                    <input type="text " id="Email " name="Email " placeholder="Email "><br>
+                </div>
+                <div id='errorEmail'>
+
+                </div>
+                <div class="inputTexto ">
+                    <input type="text " id="Telefono " name="Telefono " placeholder="Telefono "><br>
+                </div>
+                <div id='errorTelefono'>
+
+                </div>
+                <div class="inputTexto ">
+                    <textarea name="Comentario " id="Comentario " placeholder="Deje aqui su comentario "></textarea><br>
+                </div>
+                <div id='errorComentario'>
+
+                </div>
+                <button type="submit " onclick='return enviarFormulario();' value="ENVIAR " id="boton"> ENVIAR </button>
+            </div>
+        </form>
+    </div>
+    <br><br><br>
+
+    <div id="modal_container " class="modal-container ">
+        <div class="modal_contacto ">
+            <h1>Ventana Modal</h1>
+            <p>
+                ¿Esta seguro que desea enviar el comentario?
+            </p>
+            <button id="send ">SI</button>
+            <button id="close ">NO</button>
+        </div>
+    </div>
+    <script src="contacto.js "></script>
+
+    <footer class="pie de pagina " style="background-color: rgb(39, 39, 39); margin-top: 3%; border-color: black; bottom: 0; position: fixed; right: 0; left: 0; ">
+        <div class="box_redes ">
+            <h3 class="titulo-redes-sociales ">SIGUENOS EN NUESTRAS REDES SOCIALES</h3>
+            <div class="redes sociales ">
+
+                <a href="http://www.facebook.com/ " target="_blank ">
+                    <img style="margin-right: 8px; " src="imagenes/logo_facebook.png " height=40px></a>
+
+                <a href="https://www.instagram.com/?hl=es " target="_blank ">
+                    <img src="imagenes/logo_insta.png " height=40px> </a>
+                <a href="https://www.twitter.com/?lang=es " target="_blank ">
+                    <img src="imagenes/logo_twitter.png " height=50px style="margin-bottom: -5px; "></a>
+            </div>
+        </div>
+        <script src="js/hud.js "></script>
+
+</body>
+
+</html>

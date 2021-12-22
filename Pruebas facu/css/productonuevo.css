@@ -1,0 +1,284 @@
+body {
+    background-color: rgb(26, 26, 26);
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+
+/* ==== VIDEO ==== */
+
+section {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+section video {
+    position: flex;
+    top: 0;
+    margin-top: -2.3%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+
+/* ==== FIN VIDEO ==== */
+
+
+/* ==== INFORMACION DE JUEGO ==== */
+
+.juego-box {
+    /* TAMANIO CONTENIDO PAGINA*/
+    padding-top: 50vh;
+    margin: auto;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.juego-box img {
+    width: 600px;
+}
+
+.info-box {
+    /* TEXTO A LA DERECHA DE LA IMAGEN */
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 1000px;
+    padding: 2%;
+}
+
+.info-box .datos {
+    /* INFORMACION JUEGO (NOMBRE, GENEROS, ETC)*/
+    margin-bottom: 1.5%;
+    font-size: 18px;
+    color: #b3b3b3;
+}
+
+.info-box b {
+    /* COLOR NEGRITA EN INFORMACION JUEGO */
+    color: rgb(255, 255, 255);
+    font-weight: 760;
+}
+
+.info-box a {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.info-box .titulo-juego {
+    color: #fdfdfd;
+    margin-top: -3%;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.datos-box {
+    border-radius: 7px;
+    padding: 2%;
+    background-image: linear-gradient(to right, rgb(130 130 130 / 20%) 5%, rgba(34, 34, 34, 0.5) 80%);
+}
+
+
+/* ==== FIN INFORMACION DE JUEGO ==== */
+
+
+/* ==== DESCRIPCION DE JUEGO ==== */
+
+.descripcion {
+    margin-top: 4%;
+}
+
+.descripcion .titulo {
+    color: white;
+}
+
+.titulo p {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.descripcion hr {
+    color: rgb(204, 204, 204);
+    margin-bottom: 1%;
+}
+
+.descripcion .texto {
+    font-size: 18px;
+    color: rgb(165, 165, 165);
+}
+
+
+/* ==== DESCRIPCION DE JUEGO ==== */
+
+
+/* ==== REQUISITOS DEL SISTEMA ==== */
+
+.requisitos {
+    vertical-align: bottom;
+    text-align: left;
+    align-items: center;
+    width: 1730PX;
+    margin: auto;
+}
+
+.requisitos-box {
+    margin-top: 1%;
+    color: #ffffff;
+    padding: 1%;
+    margin-left: 1.5%;
+    margin-right: 3.4%;
+    border-radius: 7px;
+    background-image: linear-gradient(to right, rgb(130 130 130 / 20%) 5%, rgba(34, 34, 34, 0.5) 80%);
+}
+
+.requisitos-box strong {
+    color: rgb(255, 255, 255);
+}
+
+.requisitos .titulo {
+    margin-left: 2%;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.requisitos-box li {
+    padding-top: 8px;
+    color: #b3b3b3;
+}
+
+.requisitos .orden {
+    display: flex;
+}
+
+
+/* ==== FIN REQUISITOS DEL SISTEMA ==== */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+html,
+body {
+    height: 100%
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 20px;
+    width: 440px;
+    word-wrap: break-word;
+    background-image: linear-gradient(to right, rgb(130 130 130 / 20%) 5%, rgba(34, 34, 34, 0.5) 80%);
+    background-clip: border-box;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px 0px rgb(255, 255, 255)
+}
+
+.comment-box {
+    color: #cccccc;
+    padding: 5px
+}
+
+.comment-area textarea {
+    border: 1px solid #ad9f9f;
+}
+
+.form-control {
+    width: 280px;
+    background-color: #dadadab6;
+    height: 100px;
+    font-size: 20px;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: rgb(255, 255, 255);
+    border-color: #ffffff;
+    outline: 0;
+    box-shadow: 0 0 0 1px rgb(138, 138, 138) !important
+}
+
+.cancelar {
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    padding: 4px 15px;
+    border-radius: 5px;
+    background-color: #373738;
+}
+
+.enviar {
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    padding: 4px 15px;
+    border-radius: 5px;
+    background-color: #373738;
+}
+
+.enviar:hover {
+    background-color: rgb(0, 255, 21);
+}
+
+.cancelar:hover {
+    background-color: rgb(0, 255, 21);
+}
+
+.rating {
+    color: rgb(255, 212, 119);
+    display: flex;
+    margin-top: -10px;
+    flex-direction: row-reverse;
+    margin-left: -4px;
+    float: left
+}
+
+.rating>input {
+    display: none
+}
+
+.rating>label {
+    position: relative;
+    width: 19px;
+    font-size: 25px;
+    cursor: pointer
+}
+
+.rating>label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important
+}
+
+.rating>input:checked~label:before {
+    opacity: 1
+}
+
+.rating:hover>input:checked~label:before {
+    opacity: 0.4
+}
+
+.row {
+    display: flex;
+}
+
+.botones {
+    margin-left: 30%;
+}
+
+.redondeado {
+    border-radius: 100%;
+}

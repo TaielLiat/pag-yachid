@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="css/estiloLogin.css">
+    <link rel="stylesheet" href="css/hud.css">
+    <link rel="icon" type="image/png" href="./imagenes/logofondo.png" title="Logo">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+</head>
+<header id="header_nav" class="header_nav"> </header>
+</head>
+
+<body>
+    <div class="caja">
+        <h2>INICIO DE SESIÓN</h2>
+        <form action="">
+            <div class="inputcaja">
+                <input type="text" name="usuario" required="" id="usuario">
+                <label for=" ">Usuario</label>
+            </div>
+            <div class="inputcaja ">
+                <input type="password" name="pass" required="" id="pass">
+                <label for=" ">Contraseña</label>
+            </div>
+            <input type="button" value="INGRESAR" onclick="validar()" style="background-color: rgb(255, 240, 208); padding: 1rem; font-family: Haettenschweiler; font-size: 3rem; border-radius: 7px; ">
+            <p style="margin-top: 2%; "><a href="signup.html">¿No tiene una cuenta?</a></p>
+        </form>
+    </div>
+
+    <footer id="footer_nav" class="pie_de_pagina"> </footer>
+
+    <script src="js/hud.js "></script>
+    <script src="js/login2.js"></script>
+</body>
+
+</html>
